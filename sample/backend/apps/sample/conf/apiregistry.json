@@ -1,0 +1,3 @@
+{
+    "/apis/add-item" : "/apis/addItem.js?needsToken=false&addsToken=sub:access"    
+}

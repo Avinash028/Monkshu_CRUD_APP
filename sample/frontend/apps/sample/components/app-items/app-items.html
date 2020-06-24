@@ -1,0 +1,15 @@
+<div id="app-items">    
+    <input type="text" id="item" placeholder="Product Name"/>
+    <input type="text" id="price" placeholder="Price"/>
+    <input type="button" value="Add" onclick='monkshu_env.components["app-items"].addItem()'>
+</div>
+
+<div id="output">
+
+</div>
+
+<script id="items_list" type="text/html">
+    <ul>{{#.}}<li>{{item}}</li><li>{{price}}</li>{{/.}}</ul>
+</script>
+
+
